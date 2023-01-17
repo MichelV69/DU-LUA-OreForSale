@@ -3,7 +3,7 @@ local yourOrgName  = {}
 yourOrgName[1] = "Resource Supply"
 yourOrgName[2] = "by Wolfstar Services"
 
-local Ore_Name = "Coal"
+local Ore_Name = "Quartz"
 local Batch_Size_Litres = "2000"
 local Price_Per_Litre = "8.8"
 
@@ -23,7 +23,7 @@ wss_software ={}
 wss_software.id = "ore_for_sale_banner"
 wss_software.title = "Ore For Sale -- Sales Terminal Screen"
 wss_software.version = "1.2.0"
-wss_software.revision = "16 JAN 2023 22h15 AST"
+wss_software.revision = "16 JAN 2023 22h25 AST"
 wss_software.author = "Michel Vaillancourt <902pe_gaming@wolfstar.ca>"
 
 -- define local funtions
@@ -70,8 +70,10 @@ fontColour.Yellow = {1, 1, 0, 1}
 -- library data
 local assetsURL = {}
 assetsURL.ore   = {}
-assetsURL.ore['coal']     = "assets.prod.novaquark.com/70186/edc9f97e-7359-454e-8ba9-8f960037ae9b.png"
-assetsURL.ore['hematite'] = "assets.prod.novaquark.com/45824/36e5a9ca-c9f6-4e66-b2f4-fe64c9289224.png"
+assetsURL.ore['bauxite']   = "resources_generated/env/voxel/ore/aluminium-ore/icons/env_aluminium-ore_icon.png"
+assetsURL.ore['coal']      = "resources_generated/env/voxel/ore/carbon-ore/icons/env_carbon-ore_icon.png"
+assetsURL.ore['hematite']  = "resources_generated/env/voxel/ore/iron-ore/icons/env_iron-ore_icon.png"
+assetsURL.ore['quartz']    = "resources_generated/env/voxel/ore/silicon-ore/icons/env_silicon-ore_icon.png"
 
 -- start loading layers
 setBackgroundColor(Background_Colours.red, Background_Colours.blue, Background_Colours.green)
